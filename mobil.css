@@ -1,0 +1,123 @@
+@media screen and (max-width:500px) {
+  
+    
+#countainer {
+    width: 90%;
+    margin:auto;
+}
+
+.header h1 {
+    font-size: 18px;
+    margin-top: 13px;
+ 
+}
+
+.header p {
+    font-size: 10px;
+    margin-top: 3px;
+ 
+}
+.inputs {
+    text-align: center;
+    margin: 0 auto;
+}
+.topics {
+    width: 100%;
+}
+
+
+.topics input  {
+    width: 90%;
+}
+
+input {
+    height: 25px;
+    margin: 3px 0px;
+    padding: 4px 2px;
+    text-align: center;
+}
+
+
+    #name {
+        width: 90%;
+        padding: 4px 2px;
+    }
+
+    #total {
+        width: 100px;
+        display: block;
+        background: red;
+        padding: 4px 2px ;
+        margin: 5px auto;
+        border-radius: 3px;
+    }
+
+    button {
+        width: 90%;
+    }
+    #create {
+        margin: 3px 0;
+    }
+    #deleteAll {
+        margin: 3px 0;
+
+    }
+
+    .grades {
+        text-align: center;
+    }
+
+
+    #search {
+        width: 90%;
+        padding: 4px 2px;
+        text-align:center;
+    }
+    
+table {
+    width: 100%;
+    text-align: center;
+    margin: 16px 0;
+}
+
+table th {
+    text-transform: uppercase;
+    
+    
+}
+
+th , td {
+    padding: 0px;
+    font-size: 9px;
+    
+}
+
+
+#update {
+    background-color: green;
+    font-size: 9px;
+    padding: 0;
+    border-radius: 10px;
+    height: 23px;
+    width: 40px;
+
+
+}
+
+#delete {
+    background-color: rgb(182, 1, 1);
+    font-size: 9px;
+    padding: 0;
+    border-radius: 10px;
+    height: 23px;
+    width: 40px;
+
+
+}
+
+
+
+
+    
+    
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students’ grades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobil.css">
+</head>
+<body>
+
+<div id="countainer">
+
+
+    <div class="header">
+        <h1>Students’ grades </h1>
+        <p>The Grades Of Students Of Ibn Khaldoun School</p>
+    </div>
+
+
+
+
+    <div class="inputs">
+        <input onkeyup="disabledBtn()" type="text" id="name" placeholder="Name">  
+        <div class="topics">
+            <input onkeyup="getAgerage()" type="number"  id="english" placeholder=" Languages">
+            <input onkeyup="getAgerage()" type="number"  id="mathematics" placeholder=" Mathematics">
+            <input onkeyup="getAgerage()" type="number"  id="chemistry" placeholder=" History">
+            <input onkeyup="getAgerage()" type="number"  id="physics" placeholder=" Physics">
+            <input onkeyup="getAgerage()" type="number"  id="biology" placeholder="Biology">
+            <small id="total"></small>
+        </div>   
+        <button id="create">Create</button>
+    </div>
+
+    
+
+   
+<div class="grades">
+        <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="  Search">
+    <div id="countainerForDeleteAllBtn">
+        
+    </div>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>lang</th>
+            <th>Math</th>
+            <th>HISt</th>
+            <th>phys</th>
+            <th>biol</th>
+            <th>av</th>
+            <th>Update</th>
+            <th>delete</th>
+        </tr>
+
+        <tbody id="tbody">
+
+
+        </tbody>
+    </table>
+
+    </div>
+
+
+</div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script defer src="script.js"></script>
+</body>
+</html>
